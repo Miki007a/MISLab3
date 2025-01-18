@@ -5,12 +5,14 @@ import 'screens/jokes_by_type_screen.dart';
 import 'screens/random_joke_screen.dart';
 import 'screens/favorite_jokes_screen.dart';
 import 'firebase_options.dart';
+import 'services/notification_service.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
+  await NotificationService.initialize();
   runApp(MyApp());
 }
 
@@ -18,6 +20,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      navigatorKey: NotificationService.navigatorKey,
       title: 'Jokes',
       theme: ThemeData(
         primarySwatch: Colors.blue,
