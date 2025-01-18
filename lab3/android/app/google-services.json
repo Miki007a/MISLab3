@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "105319115288",
+    "project_id": "flutterjokes",
+    "storage_bucket": "flutterjokes.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105319115288:android:94b68026cbcb9ee9f3716d",
+        "android_client_info": {
+          "package_name": "com.example.lab1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGiD1ahDCHnAZx_oq-fVnDqmsXYjoJxHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105319115288:android:4da9f6fad51b397cf3716d",
+        "android_client_info": {
+          "package_name": "jokes.android.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGiD1ahDCHnAZx_oq-fVnDqmsXYjoJxHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
